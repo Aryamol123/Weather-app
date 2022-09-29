@@ -186,7 +186,7 @@ z-index: 5;
   }
 
 }
-@media (max-width:375px) {
+@media (max-width:400px) {
   .icon-text h1{
     font-size: 20px;
     
@@ -212,16 +212,10 @@ z-index: 5;
   }
   .search-box{
     position: relative;
-    /* width: 350px; */
+    width: 250px;
     margin: auto;
     
   }
   
-  .search-box i{
-    color: white;
-    position: absolute;
-    top: 25%;
-    right: 4%;
-    transition: 1.5s;
-  }
+  
 }
