@@ -185,3 +185,42 @@ z-index: 5;
   }
 
 }
+@media (max-width:375px) {
+  .icon-text h1{
+    font-size: 20px;
+    
+  }
+  .icon-text img{
+    width: 50px;
+   
+  }
+  
+  .search-box input{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 25px ;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    transition: all 0.30s ease-in-out;
+    border: 1px solid lightgray;
+    box-shadow: 0 0 2px white;
+  
+  }
+  .search-box{
+    position: relative;
+    /* width: 350px; */
+    margin: auto;
+    
+  }
+  
+  .search-box i{
+    color: white;
+    position: absolute;
+    top: 25%;
+    right: 4%;
+    transition: 1.5s;
+  }
+}
