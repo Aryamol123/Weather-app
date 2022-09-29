@@ -177,18 +177,24 @@ z-index: 5;
 }
 @media(max-width:515px){
   .icon-text h1{
-    font-size: 39px;
+    font-size: 20px;
     
   }
   .icon-text img{
     width: 50px;
    
   }
+  .search-box{
+    position: relative;
+    width: 250px;
+    margin: auto;
+    
+  }
 
 }
 @media (max-width:400px) {
   .icon-text h1{
-    font-size: 20px;
+    font-size: 10px;
     
   }
   .icon-text img{
